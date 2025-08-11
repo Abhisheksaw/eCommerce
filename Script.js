@@ -57,7 +57,7 @@ const mainCarouselData = [
   },
   {
     image:
-      "https://www.ethnicplus.in/cdn/shop/files/lehenga_choli_copy_1920x.jpg?v=1751608197",
+      "https://www.koskii.com/cdn/shop/files/All_category---Desktop.jpg?v=1754918825&width=1920",
     path: "/women/clothing/women_saree",
   },
 ];

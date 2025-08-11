@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eCommerce</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+    />
+
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <section id="home">
+      <!-- Top Header -->
+      <div id="top-header">
+        <div class="left">
+          <span>✉️ abhishekkr7613@gmail.com</span>
+          <span>📍 Sector 63, Noida, Uttar Pradesh, 201301</span>
+          <span>📞 +91 7654296613 | +91 7654296613</span>
+        </div>
+        <div class="right" aria-label="Social media links">
+          <a
+            href="https://abhisheksaw07.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i class="fas fa-briefcase"></i>
+          </a>
+          <a
+            href="https://github.com/Abhisheksaw"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/abhishek-kumar-saw"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <header id="main-header">
+        <div class="logo">
+          <a href="#home" class="nav-link">
+            <img src="logo/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          ☰
+        </button>
+        <nav id="nav-menu" aria-label="Primary Navigation">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#products" class="nav-link">Products</a></li>
+            <li><a href="#footer" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="spacer" style="height: 100px"></div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="carousel-container">
+        <div class="carousel-slide" id="carousel-slide"></div>
+        <button class="arrow arrow-left" id="prev-btn" aria-label="Previous">
+          &#10094;
+        </button>
+        <button class="arrow arrow-right" id="next-btn" aria-label="Next">
+          &#10095;
+        </button>
+      </div>
+    </section>
+    <div id="products"><h2 class="section-heading">Products</h2></div>
+
+    <!-- Products -->
+    <section class="products-section">
+      <div class="product-card pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <div class="product-image-container">
+          <img
+            src="https://m.media-amazon.com/images/I/61lCeBk42+L._UY1100_.jpg"
+            alt="Stylish Jacket"
+          />
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-brand">Brand A</p>
+            <p class="product-title">Stylish Jacket</p>
+          </div>
+          <div class="product-price-info">
+            <span class="price-discounted">₹3499</span>
+            <span class="price-original">₹4999</span>
+            <span class="discount-percent">30% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img
+            src="https://rukminim2.flixcart.com/image/612/612/xif0q/watch/v/o/o/1-192wdtg-timewear-men-original-imah2hn5rhzh6pms.jpeg?q=70"
+            alt="Classic Watch"
+          />
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-brand">Brand B</p>
+            <p class="product-title">Classic Watch</p>
+          </div>
+          <div class="product-price-info">
+            <span class="price-discounted">₹7999</span>
+            <span class="price-original">₹8999</span>
+            <span class="discount-percent">11% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_1p_oiGzmll2EwUIzjqbMx1FCgu70Y7JYltmLlOn-8oyVY3M1NbWjItyXCg5lgRa9N7W7lAlZ77QqmFM4kSiWG60FrJhjeaA5Hy-4nHtTK2yloRYHDCfPZsKslwQFCs-eTR2jGlTEDg&usqp=CAc"
+            alt="Leather Shoes"
+          />
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-brand">Brand C</p>
+            <p class="product-title">Leather Shoes</p>
+          </div>
+          <div class="product-price-info">
+            <span class="price-discounted">₹5599</span>
+            <span class="price-original">₹6999</span>
+            <span class="discount-percent">20% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTvT2ay-cGgcYpMYtd4lgt_KD78fBFWomttALpLOBuib3n5Wrm4cyUVwjRXapdCmlTkXVeRZ-rRjgZyBJimCSRLdKTa1udxBdH45NQ9yM0Ui3izFr9QePb12IB_-yKgyqg7ML2bBuXyVu0&usqp=CAc"
+            alt="Running Sneakers"
+          />
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-brand">Brand D</p>
+            <p class="product-title">Running Sneakers</p>
+          </div>
+          <div class="product-price-info">
+            <span class="price-discounted">₹4599</span>
+            <span class="price-original">₹5999</span>
+            <span class="discount-percent">23% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img
+            src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRMv9CC-rXG5nc6xGFKWBEnL3eI3XcekkxC7HEHhHL-jpFQrmGrOwZl_7WNP4w4KRCr0NVXqERT4uwbZ00Yt2_UToxd92oqdYi7jks6whhvfqGLvic1pL-rA-fdlEYp8Mew7K8pVvY&usqp=CAc"
+            alt="Elegant Handbag"
+          />
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-brand">Brand E</p>
+            <p class="product-title">Elegant Handbag</p>
+          </div>
+          <div class="product-price-info">
+            <span class="price-discounted">₹6799</span>
+            <span class="price-original">₹8499</span>
+            <span class="discount-percent">20% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-container">
+          <img
+            src="https://m.media-amazon.com/images/I/71CTUqsqVQL._AC_UF1000,1000_QL80_.jpg"
+            alt="Smartphone Case"
+          />
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-brand">Brand F</p>
+            <p class="product-title">Smartphone Case</p>
+          </div>
+          <div class="product-price-info">
+            <span class="price-discounted">₹899</span>
+            <span class="price-original">₹1199</span>
+            <span class="discount-percent">25% OFF</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter" id="newsletter">
+      <h2>Subscribe to our Newsletter</h2>
+      <form
+        onsubmit="handleSubscribe(event)"
+        class="newsletter-form"
+        novalidate
+      >
+        <input
+          type="email"
+          placeholder="Enter your email"
+          required
+          aria-label="Email address"
+          id="newsletterEmail"
+        />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>
+        &copy; 2025 Abhishek Kumar. All rights reserved. |
+        <a href="#privacy">Privacy Policy</a> |
+        <a href="#terms">Terms of Service</a>
+      </p>
+    </footer>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
